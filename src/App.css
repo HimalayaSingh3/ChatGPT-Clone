@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  background:rgb(3, 0, 31);
+  color: white;
+  font-family: "poppins",sans-serif;
+}
+.App{
+  min-width: 50vh;
+  height: 100vh;
+  display: flex;
+}
+.sideBar{
+  flex:6;
+  border-right: 1px solid rgb(100,100,100);
+}
+.main{
+  flex:9;
+}
+.brand{
+  font-size: 2rem;
+}
+.upperSide{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding:2.5rem;
+  border-bottom: 1px solid rgb(100,100,100);
+}
+.upperSideTop{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap:5px;
+}
+.upperSideTop img{
+  width: 50px;
+  padding: 4px;
+  border-radius: 50px;
+}
+.upperSideBottom{
+  margin-top: 20px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.upperSideBottom button{
+  padding:9px 20px;
+  background: transparent;
+  color: white;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap:40px;
+  font-size: 12px;
+}
+.midBtn{
+  margin-top: 10px;
+  gap:10px;
+  padding: 12px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 110, 255);
+  font-size: 20px;
+  color:white;
+}
+.addBtn{
+  width: 25px;
+}
+.lowerSide{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.listItems{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  font-size: 12px;
+}
+.listItemsImg{
+  height:20px;
+  width: 20px;
+}
